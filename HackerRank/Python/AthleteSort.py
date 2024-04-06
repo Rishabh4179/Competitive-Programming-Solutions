@@ -23,7 +23,7 @@ if __name__ == '__main__':
 
     k = int(input())  # sort the data of kth column
 
-    arr.sort(key = lambda x: x[k])  # for sorting the nested list based on a specific column 
+    arr.sort(key = lambda x: x[k])  # for sorting the nested list based on a specific column
 
     for i in range(n):
         for j in range(m):
